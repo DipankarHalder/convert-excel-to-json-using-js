@@ -50,7 +50,7 @@ fieldset { padding: 0.35em 0.75em 0.625em; }
 .left{float: left;}
 .right{float: right;}
 .fwidth{width: 100%;}
-.app-container{margin: 0 auto; max-width: 1800px; padding: 0px 10px; box-sizing: border-box; -webkit-box-sizing: border-box;}
+.app-container{margin: 0 auto; max-width: 1400px; padding: 0px 10px; box-sizing: border-box; -webkit-box-sizing: border-box;}
 .app-header{padding-top: 0px;}
 .bgHeader{position: absolute; left: 0px; top: 0px; height: 290px; background: var(--themeBlue); border-bottom: 4px solid var(--themeDarkBlue); z-index: -1;}
 .app-logo{font-size: 40px; font-family: var(--logo); margin-bottom: 20px; margin-top: 20px;}
@@ -62,7 +62,7 @@ fieldset { padding: 0.35em 0.75em 0.625em; }
 table col[class*="col-"] {position: static;float: none;display: table-column;}
 table td[class*="col-"],
 table th[class*="col-"] {position: static;float: none;display: table-cell;}
-.datatable{background: var(--white); padding: 50px; border-radius: 8px; border-top: 2px dashed #ddd; text-align: center; color: #dddddd; box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1); box-sizing: border-box; -webkit-box-sizing: border-box;}
+.datatable{background: var(--white); padding: 50px 30px; border-radius: 8px; border-top: 2px dashed #ddd; text-align: center; color: #dddddd; box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1); box-sizing: border-box; -webkit-box-sizing: border-box;}
 .table {width: 100%;max-width: 100%; text-align: left; color: #111111; font-size: 14px; border-spacing: 0px;border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;}
 .table > thead{background: #efefef; color: #000000; font-size: 13px;}
 .table > thead > tr > th,.table > tbody > tr > th,.table > tfoot > tr > th,.table > thead > tr > td,.table > tbody > tr > td,.table > tfoot > tr > td {padding: 3px 5px;line-height: 1.42857143;vertical-align: top;border-top: 1px solid #ddd;}

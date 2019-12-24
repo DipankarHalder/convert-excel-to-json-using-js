@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header class="fwidth left app-header">
+            <span class="bgHeader fwidth"></span>
+            <div class="app-container">
+                <div class="app-logo left fwidth">
+                    <span class="left fwidth app-logoStyle">Convert excel to json</span>
+                </div>
+                <div class="fromUpload left">
+                    <form enctype="multipart/form-data" class="left fwidth">
+                        <input id="uploadExcel" class="uploadExcel" type=file name="files[]" />
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="mainContent left fwidth">
+            <div class="app-container">
+                <div class="datatable left fwidth" id="showData">No data available</div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+        <script src="./script/app.js"></script>
+    </body>
+</html>
